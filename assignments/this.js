@@ -48,4 +48,20 @@ peekatchoo.attack();
 // Principle 4
 
 // code example for Explicit Binding
-
+let jackSparrow = {
+    name: 'Jack Sparrow',
+    skills: 'Wooing the womenfolk',
+    age: 'known unknow',
+    weapon: 'Wit'
+}
+let happyGilmore = {
+    name: 'Happy Gilmore',
+    skills: 'Gold - Sometimes Hockey',
+    age: `I'm not sure actually.`,
+    weapon: 'Hock stick'
+}
+let whatsMyName = function (name) {
+    console.log (`I am the best for my name is ${this.name}`)
+}
+whatsMyName.call(jackSparrow)
+whatsMyName.call(happyGilmore)
