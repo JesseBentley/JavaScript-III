@@ -47,7 +47,7 @@ peekatchoo.attack();
 
 // Principle 4
 
-// code example for Explicit Binding
+// code example for Explicit Binding not Explicity Language
 let jackSparrow = {
     name: 'Jack Sparrow',
     skills: 'Wooing the womenfolk',
